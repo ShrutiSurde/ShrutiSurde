@@ -1,0 +1,15 @@
+git config --global user.name "Delta1523"
+  393  git config --GLOBAL user.email "shrenik47b@gmail.com"
+  394  git config --global user.email "shrenik47b@gmail.com"
+  395  mkdir d2
+  396  cd d2
+  397  git clone https://github.com/Delta1523/del1
+  398  ls
+  399  cd del1
+  400  touch sample.txt
+  401  cat >> sample.txt
+  402  git add sample.txt
+  403  git status
+  404  git commit -m "anything"
+  405  git remote set-url origin https://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@github.com/Delta1523/del1
+  406  git push origin main
